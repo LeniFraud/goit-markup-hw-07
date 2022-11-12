@@ -1,0 +1,29 @@
+.features {
+  @include centered-flex($align: flex-start);
+  gap: $base-gap;
+}
+
+.features__wrap {
+  @include centered-flex();
+  @include sizes(270px, 120px);
+  margin-bottom: 30px;
+  background-color: $secondary-bg-color;
+  border-radius: 4px;
+}
+
+.features__icon {
+  @include sizes(70px, 70px);
+}
+
+.features__title {
+  margin-bottom: 10px;
+  font-size: $small-text-size;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features__text {
+  font-size: $small-text-size;
+  line-height: 1.71;
+  color: $secondary-text-color;
+}

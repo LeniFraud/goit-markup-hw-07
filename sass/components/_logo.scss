@@ -1,0 +1,18 @@
+.header__logo {
+  @extend %logo;
+  padding: 24px 0;
+  margin-right: 93px;
+}
+
+.footer__logo {
+  @extend %logo;
+  margin-bottom: 20px;
+}
+
+.logo__text--black {
+  color: $primary-logo-text-color;
+}
+
+.logo__text--white {
+  color: $secondary-logo-text-color;
+}
